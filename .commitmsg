@@ -1,0 +1,7 @@
+feat: release DeepSeek-Foundations v1.0 — 7 workbooks + master report
+
+All notebooks executed end-to-end (nbconvert, kernel ml-math), zero error cells:
+- 00 master: tiny GPT in NumPy, manual backprop gradient-checked (16/16 OK),
+  CE 3.91 -> 2.28 nats, perplexity 50 -> 9.78
+- 01 Linear Algebra, 02 Calculus and Autodiff, 03 Probability and Statistics,
+  04 Information Theory, 05 Optimization, 06 Neural Networks, 07 Transformers
